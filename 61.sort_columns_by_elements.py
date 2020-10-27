@@ -5,7 +5,6 @@ from random import randint
 column = 6
 row = 6
 matrix = []
-
 for i in range(row):
     myrow=[]
     for j in range(column):
@@ -15,7 +14,6 @@ for i in range(row):
 for i in matrix:
     print(i)
 print()
-
 k = column - 1
 while k != 0:
     x = 0 
