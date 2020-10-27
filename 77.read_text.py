@@ -1,5 +1,5 @@
 text = []
-for i in open(/home/akhil/Python_Practice_Beginner/Python.txt):
+for i in open('./data/Python.txt'):
     text.append(i)
 print(text)
 
